@@ -10,7 +10,7 @@ def shorten_link(token, url):
         'Authorization': f'Bearer {token}'
     }
     payload = {
-        'long_url': f'{url}',
+        'long_url': url,
         'domain': 'bit.ly'
     }
     response = requests.post(
