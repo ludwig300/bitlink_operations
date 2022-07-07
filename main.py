@@ -53,8 +53,8 @@ def is_bitlink(url, token):
 def main():
     load_dotenv()
     parser = argparse.ArgumentParser(
-    description='use bitlink'
-)
+        description='use bitlink'
+    )
     parser.add_argument('url', help='input link')
     args = parser.parse_args()
     url = args.url
