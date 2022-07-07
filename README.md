@@ -17,8 +17,11 @@
 
 	    BITLY_TOKEN = Your token
 		
-  -  -+
-  -  Remember, it is recommended to use [virtualenv/venv](https://docs.python.org/3/library/venv.html) for better isolation.
+  -  Requirements
+     - python-dotenv==0.9.1
+     - requests==2.28.0
+     
+     Remember, it is recommended to use [virtualenv/venv](https://docs.python.org/3/library/venv.html) for better isolation.
      Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) to install dependencies:
 
 	     pip install -r requirements.txt
